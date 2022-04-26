@@ -1,0 +1,142 @@
+.padding {
+	padding: 4px;
+}
+.container {
+	width: 530px;
+	margin: 65px auto;
+	font-family: 'DM Sans';
+	font-size: 9px;
+}
+.DM-Serif-Display {
+	font-family: 'DM Serif Display';
+}
+
+.font-size-10 {
+	font-size: 10px;
+}
+.font-size-11 {
+	font-size: 11px;
+}
+.font-size-23 {
+	font-size: 23px;
+}
+.font-weight-bold {
+	font-weight: bold;
+}
+
+.left {
+	width: 60%;
+	float: left;
+}
+
+.right {
+	width: 40%;
+	float: right;
+	text-align: right;
+	font-size: 20px;
+}
+
+.company-info:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.contacts {
+	margin-top: 20px;
+}
+
+.tva {
+	width: 60%;
+	float: left;
+	padding-top: 30px;
+}
+
+.client {
+	width: 40%;
+	float: right;
+}
+
+.tva-client-name:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.client-name {
+	margin-top: 20px;
+	color: #686c71;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr {
+  border-bottom: 0.5px solid #ddd;
+}
+
+.cell-1 {
+	width: 10%;
+}
+.cell-2 {
+	width: 50%;
+}
+.cell-3 {
+	width: 20%;
+}
+.cell-4 {
+	width: 20%;
+}
+
+.subtotal tbody {
+	margin-top: 30px;
+	float: right;
+	width: 40%;
+}
+
+#trBorderTop {
+	border-top: 0.5px solid #ddd;
+}
+
+.cell-sub {
+	width: 20%;
+}
+
+.subtotal:after {
+		content: "";
+		display: table;
+		clear: both;
+		margin-top: 10px;
+}
+
+.footer-left {
+	width: 60%;
+	float: left;
+}
+
+.footer-right {
+	width: 40%;
+	float: right;
+}
+
+footer {
+	margin-top: 30px;
+}
+
+.footer:after {
+		content: "";
+		display: table;
+		clear: both;
+}
+
+.color-gray {
+	color: #686c71;
+}
